@@ -1,6 +1,7 @@
 import React from "react";
 import PricingPlans from "./Pages/PricingPlans";
 import sport from './utiles/sport.jpg'
+import FAQ from "./Pages/FAQ";
 function App() {
   return (
     <div>
@@ -10,6 +11,8 @@ function App() {
       <div className="min-h-screen flex items-center justify-center">
         <PricingPlans />
       </div>
+      
+      <FAQ/>
     </div>
   );
 }

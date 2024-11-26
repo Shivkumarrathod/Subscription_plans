@@ -7,14 +7,16 @@ const PricingCard = ({ plan }) => {
       Free: {
         bg: "bg-green-500 text-white hover:bg-green-600",
         border: "border-green-500",
+        hover:"bg-green-600 "
       },
       Paid: {
         bg: "bg-orange-500 text-white hover:bg-orange-600",
         border: "border-orange-500",
+        hover:"bg-orange-600"
       },
       Enterprise: {
         bg: "bg-blue-500 text-white hover:bg-blue-600",
-        border: "border-blue-500",
+        hover:"bg-blue-600"
       },
     };
   
@@ -22,7 +24,7 @@ const PricingCard = ({ plan }) => {
       <div
         className={`p-6 border-2 rounded-lg hover:shadow-lg transition-shadow ${
           planColors[plan.name].border
-        }`}
+        } hover:transition-all hover:${planColors[plan.name].hover} hover:bg-opacity-20 `}
       >
         <div className="border-b-2 p-2">
             <h2 className={`text-2xl font-bold rounded-lg `}>

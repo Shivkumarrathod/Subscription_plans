@@ -24,7 +24,7 @@ const PricingPlans = () => {
   const [interval, setInterval] = useState("monthly");
 
   return (
-    <div className="w-full max-w-5xl px-4 py-8 bg-white rounded-lg shadow-md">
+    <div className="w-full max-w-5xl px-4 py-8 bg-white rounded-lg ">
       <h1 className="text-3xl font-bold text-black tracking-wider text-center mb-1">Choose Your Plan</h1>
       <p className="text-center text-sm">Choose the best plan that fits you.</p>
       <div className="grid gap-6 mt-6 sm:grid-cols-1 md:grid-cols-3">
