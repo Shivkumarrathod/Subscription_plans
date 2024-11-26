@@ -16,6 +16,7 @@ const PricingCard = ({ plan }) => {
       },
       Enterprise: {
         bg: "bg-blue-500 text-white hover:bg-blue-600",
+        border: "border-blue-500",
         hover:"bg-blue-600"
       },
     };
